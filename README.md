@@ -1,5 +1,20 @@
-# cripto-tax
+**MVP**
 
-Added new info
+1. Поле ввода города + кнопка поиска (Enter тоже работает).
+2. Fetch current weather (OpenWeather API или любой другой).
+3. Вывод: город, страна, температура, описание (clouds, humidity), иконка погоды, время последнего обновления.
+4. Loader/Spinner во время запроса.
+5. Обработка ошибок: город не найден, сеть недоступна, таймаут.
+6. Структура кода на модули (`import/export`).
+7. Полезный README и пуш в GitHub (инструкции запуска).
 
-## description about project
+**Stretch**
+
+1. 5-дневный прогноз (forecast) и рендер карточек.
+2. Переключатель °C/°F (с сохранением в `localStorage`).
+3. Список избранных городов (favorites) в `localStorage`.
+4. Автокомплит городов (если использовать API с подсказками).
+5. Retry при временных ошибках, таймаут и fallback.
+6. Responsive дизайн + доступность (ARIA).
+7. Деплой (GitHub Pages / Netlify / Vercel + serverless proxy для ключа API).
+8. Тесты (простые unit тесты функций формирования URL / парсинга ответа).
